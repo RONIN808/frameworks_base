@@ -524,7 +524,7 @@ public class QuickStatusBarHeader extends RelativeLayout implements
 
     private void updateDataUsageView() {
         if (mDataUsageView.isDataUsageEnabled() != 0) {
-            if (com.android.internal.util.sakura.Utils.isConnected(mContext)) {
+            if (com.android.internal.util.magnus.Utils.isConnected(mContext)) {
                 DataUsageView.updateUsage();
                 mDataUsageLayout.setVisibility(View.VISIBLE);
                 mDataUsageImage.setVisibility(View.VISIBLE);
@@ -545,7 +545,7 @@ public class QuickStatusBarHeader extends RelativeLayout implements
         if (mDataUsageView.isDataUsageEnabled() == 0) {
             mDataUsageImage.setVisibility(View.GONE);
         } else {
-            if (com.android.internal.util.sakura.Utils.isWiFiConnected(mContext)) {
+            if (com.android.internal.util.magnus.Utils.isWiFiConnected(mContext)) {
                 mDataUsageImage.setImageDrawable(mContext.getDrawable(R.drawable.ic_data_usage_wifi));
             } else {
                 mDataUsageImage.setImageDrawable(mContext.getDrawable(R.drawable.ic_data_usage_cellular));

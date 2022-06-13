@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.systemui.sakura.batterybar;
+package com.android.systemui.magnus.batterybar;
 
 import android.content.Context;
 import android.content.SharedPreferences;

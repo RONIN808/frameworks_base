@@ -21,7 +21,7 @@ import android.content.pm.PackageManager;
 import android.util.Slog;
 import android.view.View;
 
-import com.android.internal.util.sakura.FodUtils;
+import com.android.internal.util.magnus.FodUtils;
 
 import com.android.systemui.SystemUI;
 import com.android.systemui.biometrics.FODCircleViewImplCallback;

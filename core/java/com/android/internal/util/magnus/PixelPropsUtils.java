@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.internal.util.sakura;
+package com.android.internal.util.magnus;
 
 import android.os.Build;
 import android.util.Log;

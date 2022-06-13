@@ -52,7 +52,7 @@ import com.android.internal.annotations.VisibleForTesting;
 import com.android.systemui.statusbar.phone.StatusBar;
 import com.android.systemui.Dependency;
 
-import com.android.internal.util.sakura.FodUtils;
+import com.android.internal.util.magnus.FodUtils;
 
 import com.android.systemui.R;
 

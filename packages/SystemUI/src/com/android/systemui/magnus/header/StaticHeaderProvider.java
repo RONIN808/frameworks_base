@@ -16,7 +16,7 @@
  *
  */
 
-package com.android.systemui.sakura.header;
+package com.android.systemui.magnus.header;
 
 import android.content.Context;
 import android.content.Intent;
@@ -35,7 +35,7 @@ import java.io.InputStream;
 import java.util.Calendar;
 
 import com.android.systemui.R;
-import com.android.internal.util.sakura.Utils;
+import com.android.internal.util.magnus.Utils;
 
 public class StaticHeaderProvider implements
         StatusBarHeaderMachine.IStatusBarHeaderProvider {

@@ -44,8 +44,8 @@ import android.widget.Toast;
 
 import com.android.internal.logging.MetricsLogger;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
-import com.android.internal.util.sakura.OmniJawsClient;
-import com.android.internal.util.sakura.Utils;
+import com.android.internal.util.magnus.OmniJawsClient;
+import com.android.internal.util.magnus.Utils;
 import com.android.systemui.Dependency;
 import com.android.systemui.R;
 import com.android.systemui.plugins.ActivityStarter;
@@ -98,7 +98,7 @@ public class WeatherTile extends QSTileImpl<BooleanState> implements OmniJawsCli
 
     @Override
     public int getMetricsCategory() {
-        return MetricsEvent.SAKURA;
+        return MetricsEvent.MAGNUS;
     }
 
     @Override
@@ -270,7 +270,7 @@ public class WeatherTile extends QSTileImpl<BooleanState> implements OmniJawsCli
 
         @Override
         public int getMetricsCategory() {
-            return MetricsEvent.SAKURA;
+            return MetricsEvent.MAGNUS;
         }
 
         @Override

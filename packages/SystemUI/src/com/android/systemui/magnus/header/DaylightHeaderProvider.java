@@ -16,7 +16,7 @@
  *
  */
 
-package com.android.systemui.sakura.header;
+package com.android.systemui.magnus.header;
 
 import android.app.AlarmManager;
 import android.app.PendingIntent;
@@ -50,7 +50,7 @@ import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
 import org.xmlpull.v1.XmlPullParserFactory;
 
-import com.android.internal.util.sakura.Utils;
+import com.android.internal.util.magnus.Utils;
 
 import com.android.systemui.R;
 

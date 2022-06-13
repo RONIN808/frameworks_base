@@ -66,7 +66,7 @@ import com.android.internal.annotations.GuardedBy;
 import com.android.internal.logging.MetricsLogger;
 import com.android.internal.util.DumpUtils;
 import com.android.internal.widget.LockPatternUtils;
-import com.android.internal.util.sakura.FodUtils;
+import com.android.internal.util.magnus.FodUtils;
 import com.android.server.SystemServerInitThreadPool;
 import com.android.server.biometrics.AuthenticationClient;
 import com.android.server.biometrics.BiometricServiceBase;

@@ -7436,8 +7436,8 @@ message MetricsEvent {
     // Add new aosp constants above this line.
     // END OF AOSP CONSTANTS
 
-    // sakura Settings
-    SAKURA = 4000;
+    // magnus Settings
+    MAGNUS = 4000;
 
     // Panel for Mobile Data
     PANEL_MOBILE_DATA = 2002;

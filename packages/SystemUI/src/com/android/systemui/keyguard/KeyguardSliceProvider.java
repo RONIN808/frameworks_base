@@ -51,7 +51,7 @@ import androidx.slice.builders.ListBuilder.RowBuilder;
 import androidx.slice.builders.SliceAction;
 
 import com.android.internal.annotations.VisibleForTesting;
-import com.android.internal.util.sakura.OmniJawsClient;
+import com.android.internal.util.magnus.OmniJawsClient;
 import com.android.keyguard.KeyguardUpdateMonitor;
 import com.android.keyguard.KeyguardUpdateMonitorCallback;
 import com.android.systemui.Dependency;
@@ -318,7 +318,7 @@ public class KeyguardSliceProvider extends SliceProvider implements
         String dndStringTitle = getContext().getResources().getString(R.string.quick_settings_dnd_label);
 
         if (isTwelveClockSelected) {
-            if (!com.android.internal.util.sakura.Utils.isThemeEnabled("com.android.theme.icon_pack.oos.systemui")) {
+            if (!com.android.internal.util.magnus.Utils.isThemeEnabled("com.android.theme.icon_pack.oos.systemui")) {
                 RowBuilder dndBuilder = new RowBuilder(mDndUri)
                         .setTitle(dndStringTitle)
                         .setContentDescription(dndString)

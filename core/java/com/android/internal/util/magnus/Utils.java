@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.internal.util.sakura;
+package com.android.internal.util.magnus;
 
 import android.Manifest;
 import android.app.ActivityManager;

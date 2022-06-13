@@ -128,7 +128,7 @@ public class AODTile extends QSTileImpl<State> implements
 
     @Override
     public int getMetricsCategory() {
-        return MetricsEvent.SAKURA;
+        return MetricsEvent.MAGNUS;
     }
 
     private ContentObserver mObserver = new ContentObserver(mHandler) {

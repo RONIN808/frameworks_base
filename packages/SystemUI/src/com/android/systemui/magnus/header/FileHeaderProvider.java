@@ -16,7 +16,7 @@
  *
  */
 
-package com.android.systemui.sakura.header;
+package com.android.systemui.magnus.header;
 
 import android.content.Context;
 import android.content.res.Resources;
