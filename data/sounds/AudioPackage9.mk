@@ -35,16 +35,11 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/notifications/ogg/Adara.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Adara.ogg \
 	$(LOCAL_PATH)/notifications/ogg/Alya.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Alya.ogg \
 	$(LOCAL_PATH)/notifications/ogg/Arcturus.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Arcturus.ogg \
-	$(LOCAL_PATH)/notifications/ogg/Capella.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Capella.ogg \
-	$(LOCAL_PATH)/notifications/ogg/CetiAlpha.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/CetiAlpha.ogg \
 	$(LOCAL_PATH)/notifications/ogg/Hojus.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Hojus.ogg \
 	$(LOCAL_PATH)/notifications/ogg/Mira.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Mira.ogg \
 	$(LOCAL_PATH)/notifications/ogg/Pollux.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Pollux.ogg \
 	$(LOCAL_PATH)/notifications/ogg/Procyon.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Procyon.ogg \
-	$(LOCAL_PATH)/notifications/ogg/Shaula.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Shaula.ogg \
-	$(LOCAL_PATH)/notifications/ogg/Spica.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Spica.ogg \
 	$(LOCAL_PATH)/notifications/ogg/Syrma.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Syrma.ogg \
 	$(LOCAL_PATH)/notifications/ogg/Talitha.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Talitha.ogg \
 	$(LOCAL_PATH)/notifications/ogg/Tejat.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Tejat.ogg \
-	$(LOCAL_PATH)/notifications/ogg/Vega.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Vega.ogg \
 	$(LOCAL_PATH)/ringtones/ogg/Girtab.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Girtab.ogg

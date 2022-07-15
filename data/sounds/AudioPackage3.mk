@@ -23,9 +23,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/Ring_Digital_02.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Ring_Digital_02.ogg \
 	$(LOCAL_PATH)/Ring_Synth_04.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Ring_Synth_04.ogg \
 	$(LOCAL_PATH)/Ring_Synth_02.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Ring_Synth_02.ogg \
-	$(LOCAL_PATH)/notifications/Beat_Box_Android.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Beat_Box_Android.ogg \
 	$(LOCAL_PATH)/notifications/Heaven.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Heaven.ogg \
-	$(LOCAL_PATH)/notifications/TaDa.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/TaDa.ogg \
 	$(LOCAL_PATH)/notifications/Tinkerbell.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Tinkerbell.ogg \
 	$(LOCAL_PATH)/effects/Effect_Tick.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/Effect_Tick.ogg \
 	$(LOCAL_PATH)/effects/KeypressStandard.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/KeypressStandard.ogg \
@@ -44,60 +42,21 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/effects/ogg/Trusted.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/Trusted.ogg \
 	$(LOCAL_PATH)/notifications/moonbeam.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/moonbeam.ogg \
 	$(LOCAL_PATH)/notifications/pixiedust.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/pixiedust.ogg \
-	$(LOCAL_PATH)/notifications/pizzicato.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/pizzicato.ogg \
-	$(LOCAL_PATH)/notifications/tweeters.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/tweeters.ogg \
-	$(LOCAL_PATH)/newwavelabs/BeatPlucker.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/BeatPlucker.ogg \
-	$(LOCAL_PATH)/newwavelabs/CaffeineSnake.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/CaffeineSnake.ogg
+	$(LOCAL_PATH)/notifications/pizzicato.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/pizzicato.ogg
 
 ifneq ($(MINIMAL_NEWWAVELABS),true)
 PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/newwavelabs/BentleyDubs.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/BentleyDubs.ogg \
-	$(LOCAL_PATH)/newwavelabs/BirdLoop.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/BirdLoop.ogg \
-	$(LOCAL_PATH)/newwavelabs/CurveBall.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/CurveBall.ogg \
-	$(LOCAL_PATH)/newwavelabs/EtherShake.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/EtherShake.ogg \
-	$(LOCAL_PATH)/newwavelabs/Growl.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Growl.ogg \
-	$(LOCAL_PATH)/newwavelabs/LoopyLounge.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/LoopyLounge.ogg \
-	$(LOCAL_PATH)/newwavelabs/LoveFlute.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/LoveFlute.ogg \
 	$(LOCAL_PATH)/newwavelabs/MidEvilJaunt.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/MidEvilJaunt.ogg \
 	$(LOCAL_PATH)/newwavelabs/MildlyAlarming.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/MildlyAlarming.ogg \
 	$(LOCAL_PATH)/newwavelabs/NewPlayer.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/NewPlayer.ogg \
 	$(LOCAL_PATH)/newwavelabs/Noises1.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Noises1.ogg \
 	$(LOCAL_PATH)/newwavelabs/Noises2.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Noises2.ogg \
 	$(LOCAL_PATH)/newwavelabs/Noises3.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Noises3.ogg \
-	$(LOCAL_PATH)/newwavelabs/OrganDub.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/OrganDub.ogg \
-	$(LOCAL_PATH)/newwavelabs/Terminated.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Terminated.ogg \
-	$(LOCAL_PATH)/newwavelabs/TwirlAway.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/TwirlAway.ogg \
-	$(LOCAL_PATH)/newwavelabs/World.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/World.ogg \
 	$(LOCAL_PATH)/newwavelabs/DearDeer.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/DearDeer.ogg \
 	$(LOCAL_PATH)/newwavelabs/DontPanic.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/DontPanic.ogg \
-	$(LOCAL_PATH)/newwavelabs/Highwire.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Highwire.ogg \
-	$(LOCAL_PATH)/newwavelabs/KzurbSonar.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/KzurbSonar.ogg \
-	$(LOCAL_PATH)/newwavelabs/OnTheHunt.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/OnTheHunt.ogg \
 	$(LOCAL_PATH)/newwavelabs/Voila.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Voila.ogg \
-	$(LOCAL_PATH)/newwavelabs/Big_Easy.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Big_Easy.ogg \
-	$(LOCAL_PATH)/newwavelabs/Bollywood.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Bollywood.ogg \
-	$(LOCAL_PATH)/newwavelabs/Cairo.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Cairo.ogg \
-	$(LOCAL_PATH)/newwavelabs/Calypso_Steel.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Calypso_Steel.ogg \
 	$(LOCAL_PATH)/newwavelabs/Champagne_Edition.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Champagne_Edition.ogg \
-	$(LOCAL_PATH)/newwavelabs/Club_Cubano.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Club_Cubano.ogg \
 	$(LOCAL_PATH)/newwavelabs/Eastern_Sky.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Eastern_Sky.ogg \
-	$(LOCAL_PATH)/newwavelabs/Funk_Yall.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Funk_Yall.ogg \
-	$(LOCAL_PATH)/newwavelabs/Savannah.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Savannah.ogg \
-	$(LOCAL_PATH)/newwavelabs/Gimme_Mo_Town.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Gimme_Mo_Town.ogg \
-	$(LOCAL_PATH)/newwavelabs/Glacial_Groove.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Glacial_Groove.ogg \
-	$(LOCAL_PATH)/newwavelabs/Seville.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Seville.ogg \
-	$(LOCAL_PATH)/newwavelabs/No_Limits.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/No_Limits.ogg \
 	$(LOCAL_PATH)/newwavelabs/Paradise_Island.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Paradise_Island.ogg \
-	$(LOCAL_PATH)/newwavelabs/Road_Trip.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Road_Trip.ogg \
-	$(LOCAL_PATH)/newwavelabs/Shes_All_That.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Shes_All_That.ogg \
-	$(LOCAL_PATH)/newwavelabs/Steppin_Out.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Steppin_Out.ogg \
-	$(LOCAL_PATH)/newwavelabs/Third_Eye.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Third_Eye.ogg \
-	$(LOCAL_PATH)/newwavelabs/Thunderfoot.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Thunderfoot.ogg \
-	$(LOCAL_PATH)/newwavelabs/HalfwayHome.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/HalfwayHome.ogg \
-	$(LOCAL_PATH)/newwavelabs/CrayonRock.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/CrayonRock.ogg \
-	$(LOCAL_PATH)/newwavelabs/DancinFool.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/DancinFool.ogg \
-	$(LOCAL_PATH)/newwavelabs/BussaMove.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/BussaMove.ogg \
-	$(LOCAL_PATH)/newwavelabs/DonMessWivIt.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/DonMessWivIt.ogg \
-	$(LOCAL_PATH)/newwavelabs/SilkyWay.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/SilkyWay.ogg \
-	$(LOCAL_PATH)/newwavelabs/Playa.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Playa.ogg
+	$(LOCAL_PATH)/newwavelabs/HalfwayHome.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/HalfwayHome.ogg
 endif

@@ -24,7 +24,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/notifications/ogg/Argon.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Argon.ogg \
     $(LOCAL_PATH)/notifications/Canopus.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Canopus.ogg \
     $(LOCAL_PATH)/notifications/Deneb.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Deneb.ogg \
-    $(LOCAL_PATH)/newwavelabs/Highwire.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Highwire.ogg \
     $(LOCAL_PATH)/notifications/ogg/Iridium.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Iridium.ogg \
     $(LOCAL_PATH)/notifications/pixiedust.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/pixiedust.ogg \
     $(LOCAL_PATH)/notifications/ogg/Talitha.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Talitha.ogg \
