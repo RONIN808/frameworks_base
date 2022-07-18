@@ -22,7 +22,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/Alarm_Classic.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Alarm_Classic.ogg \
     $(LOCAL_PATH)/Alarm_Rooster_02.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Alarm_Rooster_02.ogg \
     $(LOCAL_PATH)/alarms/ogg/Argon.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Argon.ogg \
-    $(LOCAL_PATH)/alarms/ogg/Barium.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Barium.ogg \
     $(LOCAL_PATH)/alarms/ogg/Carbon.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Carbon.ogg \
     $(LOCAL_PATH)/alarms/ogg/Cesium.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Cesium.ogg \
     $(LOCAL_PATH)/alarms/ogg/Fermium.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Fermium.ogg \
@@ -76,7 +75,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/notifications/ogg/Selenium.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Selenium.ogg \
     $(LOCAL_PATH)/notifications/Sirrah.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Sirrah.ogg \
     $(LOCAL_PATH)/notifications/SpaceSeed.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/SpaceSeed.ogg \
-    $(LOCAL_PATH)/notifications/ogg/Strontium.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Strontium.ogg \
     $(LOCAL_PATH)/notifications/ogg/Syrma.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Syrma.ogg \
     $(LOCAL_PATH)/notifications/ogg/Talitha.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Talitha.ogg \
     $(LOCAL_PATH)/notifications/ogg/Tejat.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Tejat.ogg \
@@ -108,7 +106,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/newwavelabs/GameOverGuitar.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/GameOverGuitar.ogg \
     $(LOCAL_PATH)/ringtones/ogg/Girtab.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Girtab.ogg \
     $(LOCAL_PATH)/newwavelabs/HalfwayHome.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/HalfwayHome.ogg \
-    $(LOCAL_PATH)/newwavelabs/InsertCoin.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/InsertCoin.ogg \
     $(LOCAL_PATH)/ringtones/ogg/Kuma.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Kuma.ogg \
     $(LOCAL_PATH)/newwavelabs/MidEvilJaunt.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/MidEvilJaunt.ogg \
     $(LOCAL_PATH)/newwavelabs/MildlyAlarming.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/MildlyAlarming.ogg \
@@ -134,7 +131,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/ringtones/ogg/Solarium.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Solarium.ogg \
     $(LOCAL_PATH)/newwavelabs/SpringyJalopy.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/SpringyJalopy.ogg \
     $(LOCAL_PATH)/ringtones/ogg/Themos.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Themos.ogg \
-    $(LOCAL_PATH)/newwavelabs/VeryAlarmed.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/VeryAlarmed.ogg \
     $(LOCAL_PATH)/ringtones/Vespa.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Vespa.ogg \
     $(LOCAL_PATH)/ringtones/ogg/Zeta.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Zeta.ogg \
     $(LOCAL_PATH)/effects/ogg/Dock.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/Dock.ogg \
